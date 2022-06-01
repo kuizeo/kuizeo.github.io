@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@900&display=swap');
+
+html {
+	background-color: #eeeeef;
+	color: #111119;
+
+	font-family: Lora;
+	font-weight: 400;
+
+	margin-left: 25%;
+	margin-right: 25%;
+
+	height: 50%;
+	width: 50%;
+
+	transform: translateY(-50%);
+	position: absolute;
+
+	top: 50%;
+}
+
+::selection {
+	background-color: rgba(255, 140, 141, 50%);
+	color: black;
+}
+
+h1 {
+	font-family: "Playfair Display";
+	font-weight: 900;
+}
